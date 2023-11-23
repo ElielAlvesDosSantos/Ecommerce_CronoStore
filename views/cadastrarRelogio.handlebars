@@ -1,0 +1,30 @@
+<br>
+<nav class="menu">
+    <a href="/cadastrarRelogio">Cadastrar Relógio</a>&emsp;
+    <a href="/listarRelogio">Listar Relógios</a>&emsp;
+    <a href="/editarRelogio">Editar Relógio</a>&emsp;
+    <a href="/excluirRelogio">Excluir Relógio</a>
+</nav>
+<br><br>
+<form action="/cadastrarRelogio" method="post">
+    <label for="nome">Nome do Relógio:</label><br>
+    <input type="text" name="nome" placeholder="nome do Relogio"><br>
+    <label for="tamanho">Tamanho do Relógio:</label><br>
+    <input type="text" name="tamanho" placeholder="M"><br>
+    <label for="tipo">Tipo do Relógio:</label><br>
+    <input type="text" name="tipo" placeholder="masculino"><br>
+    <label for="quantidadeEstoque">Quantidade de Relógios:</label><br>
+    <input type="text" name="quantidadeEstoque" placeholder="quantidade"><br>
+    <label for="precoUnitario">Preço unitário do Relógio:</label><br>
+    <input type="text" name="precoUnitario" placeholder="unitário"><br>
+    <label for="descricao">Descrição do Relógio:</label><br>
+    <input type="text" name="descricao" placeholder="Descrição"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}
+
+
+<link rel="stylesheet" href="/css/cadastrarRelogio.css">

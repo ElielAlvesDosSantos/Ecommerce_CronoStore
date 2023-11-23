@@ -1,0 +1,24 @@
+<br>
+<nav class="menu">
+    <a href="/cadastrarRelogio">Cadastrar Relógio</a>&emsp;
+    <a href="/listarRelogio">Listar Relógios</a>&emsp;
+    <a href="/editarRelogio">Editar Relógio</a>&emsp;
+    <a href="/excluirRelogio">Excluir Relógio</a>
+</nav>
+<br><br>
+<h1>Excluir um Relógio</h1>
+<br>
+<form action="/excluirRelogio" method="post">     
+    <label for="nome">Digite o nome do Relógio:</label><br>
+    <input type="text" name="nome" placeholder="Digite o nome do Relogio"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+<br>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{else}}
+    <p>{{msg2}}</p>
+{{/if}} 
+
+<link rel="stylesheet" href="/css/excluirRelogio.css">

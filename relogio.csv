@@ -1,0 +1,7 @@
+id;num_relogio;nome;tamanho ;tipo;quantidadeEstoque;precoUnitario;descricao
+1;1;ChronoMaster;M;M;4;195.95;relogio masculino
+2;2;TimeMender;P;M;3;175.95;relogio masculino
+3;3;EternaSync;G;M;1;180.95;relogio masculino
+4;4;HorizonTracker;M;F;2;150.00;relogio feminino
+5;5;LunaPulse;P;F;3;155.50;relogio feminino
+6;6;QuantumQuartz;G;F;4;165.95;relogio feminino

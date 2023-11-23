@@ -1,0 +1,56 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#carrinho-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* Estilos do corpo */
+hr {
+    border: 0px solid #e5e5e5;
+    margin: 0px 0;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #fca311;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+/* Estilos específicos para o carrinho de compras */
+h1 {
+    color: #14213d;
+}
+
+#itens-carrinho {
+    list-style: none;
+    padding: 0;
+}
+
+#itens-carrinho li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+}
+
+#qtde-total,
+#total-carrinho {
+    color: #14213d;
+    font-weight: bold;
+}
+
+#limpar-carrinho,
+#botao-comprar {
+    background-color: #fca311;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#limpar-carrinho:hover,
+#botao-comprar:hover {
+    background-color: #e5e5e5;
+}
+
+#mensagem-compra {
+    color: #14213d;
+    margin-top: 10px;
+}
+
+/* Adicione estilos adicionais conforme necessário */

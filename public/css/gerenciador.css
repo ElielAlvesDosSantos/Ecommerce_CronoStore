@@ -1,0 +1,25 @@
+/* Estilos específicos para o menu de navegação */
+nav {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a mensagem */
+p {
+    color: #14213d;
+    margin-top: 10px;
+}
+
+/* Adicione estilos adicionais conforme necessário */

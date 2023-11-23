@@ -1,0 +1,89 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p, label, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+.menu {
+    background-color: #14213d;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background-color: #fca311;
+    color: #000000;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    color: #000000;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fca311;
+    color: #000000;
+}
+
+table {
+    width: 80%;
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    input {
+        width: calc(100% - 16px);
+    }
+}

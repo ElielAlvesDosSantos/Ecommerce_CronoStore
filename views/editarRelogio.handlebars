@@ -1,0 +1,62 @@
+<br>
+<nav class="menu">
+    <a href="/cadastrarRelogio">Cadastrar Relógio</a>&emsp;
+    <a href="/listarRelogio">Listar Relógio</a>&emsp;
+    <a href="/editarRelogio">Editar Relógio</a>&emsp;
+    <a href="/excluirRelogio">Excluir Relógio</a>
+</nav>
+<br>
+<h2>Consulta do produto atual</h2>
+<form action="/consultaRelogio" method="post">
+    <label for="nome">Nome do Relógio:</label><br>
+    <input type="text" name="nome" placeholder="nome do Relogio"><br>
+    <br>
+    <button type="submit">Enviar</button>
+</form>
+<br>
+<table>
+    <thead>
+        <th>Nome</th>
+        <th>Tamanho</th>
+        <th>Tipo</th>
+        <th>Qtde Estoque</th>
+        <th>Preço R$</th>
+        <th>Descrição</th>
+    </thead>
+    <tbody>
+        {{#if valor}}
+        <tr>
+            <td>{{valor.nome}}</td>
+            <td>{{valor.tamanho}}</td>
+            <td>{{valor.tipo}}</td>
+            <td>{{valor.quantidadeEstoque}}</td>
+            <td>{{valor.precoUnitario}}</td>
+            <td>{{valor.descricao}}</td>
+        </tr>
+        {{/if}}
+    </tbody>
+</table>
+<br>
+<h2>Atualização do Relógio</h2>
+<br>
+<form action="/editarRelogio" method="post">
+    <label for="nome">Novo Nome do Relógio:</label><br>
+    <input type="text" name="nome" placeholder="nome do Relogio"><br>
+    <label for="tamanho">Tamanho do Relógio:</label><br>
+    <input type="text" name="tamanho" placeholder="M"><br>
+    <label for="tipo">Tipo de Relógio:</label><br>
+    <input type="text" name="tipo" placeholder="masculino"><br>
+    <label for="quantidadeEstoque">Quantidade de Relógios:</label><br>
+    <input type="text" name="quantidadeEstoque" placeholder="quantidade"><br>
+    <label for="precoUnitario">Preço unitário do Relógio:</label><br>
+    <input type="text" name="precoUnitario" placeholder="unitário"><br>
+    <label for="descricao">Descrição do Relógio:</label><br>
+    <input type="text" name="descricao" placeholder="Descrição"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}
+
+<link rel="stylesheet" href="/css/editarRelogio.css">

@@ -1,0 +1,53 @@
+/* Reset de estilos padrão */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+.menu {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #14213d;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Adicione estilos adicionais conforme necessário */

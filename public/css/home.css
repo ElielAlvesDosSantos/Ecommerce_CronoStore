@@ -1,0 +1,47 @@
+/* Reset some default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Section */
+#banner {
+    position: relative;
+    height: 90vh; /* Increased the height */
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#copy-container {
+    text-align: center;
+}
